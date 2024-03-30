@@ -14,8 +14,11 @@ console.log(longWords(['couscous', 'soup', 'ceviche', 'solyanka' ,'taco'])); // 
 */
 
 let longWords = function(words) {
-    // Your code here 
-    return words.filter((el)=> el.length>5)
+    // Your code here
+    let word =sentence.split(' ');
+    let filteredWord= words.filter((el)=> el.length>('e'))
+
+    return filteredWord.join('')
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
