@@ -14,7 +14,7 @@ console.log(avgVal([])); // null
 */
 
 let avgVal = function(arr) {
-    // Your code here 
+    // Your code here
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
