@@ -18,18 +18,18 @@ let avgVal = function(arr) {
     if(arr.length===0){
 
       return null;
-    } 
+    }
     let sum=0;
-    
+
     arr.forEach((el)=>{
         sum+=el;
-      
+
    sum/arr.length;
-    
-      
-        
+
+
+
     })
-   
+
     let avg=(sum/arr.length)
     return avg
 };
