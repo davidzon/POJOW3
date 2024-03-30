@@ -12,7 +12,15 @@ console.log(sumForEach([])); // 0
 */
 
 let sumForEach = function(arr) {
+<<<<<<< HEAD
   // Your code here
+=======
+  let count= 0;
+  arr.forEach((el)=>
+  count+=el
+  )
+  return count;
+>>>>>>> 19cd82cd63cc015eee298ebf4d02a0e3e3750d6a
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
